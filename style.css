@@ -42,7 +42,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: 700;
-    padding: 0.5rem;
+    padding: -0.5rem;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
@@ -159,7 +159,7 @@ body.dark-mode .image {
         font-size: 1.2rem;
     }
     nav {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: center;
     }
     main {
