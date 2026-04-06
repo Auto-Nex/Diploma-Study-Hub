@@ -27,6 +27,8 @@
             alert(`🔓 Welcome ${name}! Login Successful.`);
             // Example of redirect
             // window.location.href = "dashboard.html";
+
+            openDocument(url);
             document.getElementById("login").style.display = "none";
             document.getElementById("main").style.display ="block";
         
@@ -42,3 +44,10 @@
             login();
         }
     });
+
+function openDocument(url) {
+    window.open(url, "_blank"); // Opens in a new tab
+}
+
+// Example usage:
+openDocument("Syllabus/314009-ELECTRONIC EQUIPMENT MAINTENANCE & SIMULATION.pdf");
